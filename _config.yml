@@ -2,3 +2,12 @@ theme: jekyll-theme-minimal
 title: Anna Papitto
 description: Software Engineer
 logo: anna.png
+author:
+  name             : "Your Sidebar Name"
+  avatar           : "profile.png"
+  bio              : "Your biography for the left-hand sidebar"
+  location         : "Location"
+  employer         : "Everlaw"
+  email            : "annapapitto at gmail dot com"
+  github           : "academicpages"
+  linkedin         : "https://www.linkedin.com/in/anna-papitto/"
