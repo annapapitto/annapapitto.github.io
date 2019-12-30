@@ -14,11 +14,15 @@
 /**************/
 
 html {
+  height: 100%;
   font-size: 100%;
 }
 
 body {
-	background: $white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -151,6 +155,7 @@ img {
 //
 
 .wrapper-masthead {
+  flex-shrink: 0;
   margin-bottom: 50px;
 }
 
@@ -241,6 +246,10 @@ nav {
 // .main
 //
 
+#main {
+  flex: 1 0 auto;
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -272,6 +281,7 @@ nav {
 }
 
 .wrapper-footer {
+  flex-shrink: 0;
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
