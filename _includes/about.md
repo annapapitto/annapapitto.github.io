@@ -2,7 +2,7 @@
 
 Curious what I've been up to during [work](https://www.linkedin.com/in/anna-papitto/) hours? [Here]({{ site.url }}/download/AnnaPapittoResume.pdf) is a PDF of my resume (as of February 2020).
 
-I've been reading technical books recently; please recommend one to me!
+I've been reading [technical books](https://www.goodreads.com/review/list/107974217-anna-papitto?shelf=technical) recently; please recommend more to me!
 
 ### Personal
 
