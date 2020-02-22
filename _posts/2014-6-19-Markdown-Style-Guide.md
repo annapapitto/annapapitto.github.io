@@ -9,7 +9,7 @@ This is a demo of all styled elements in Jekyll Now.
 
 This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
 
-## Header 2 (H1 is reserved for post titles)##
+## Header 2 (same as post titles)
 
 ### Header 3
 
@@ -46,9 +46,9 @@ Syntax highlighting can be used with triple backticks, like so:
 var rawr = ["r", "a", "w", "r"];
 ```
 
-Use two trailing spaces  
-on the right  
-to create linebreak tags  
+Use two trailing spaces
+on the right
+to create linebreak tags
 
 Finally, horizontal lines
 
