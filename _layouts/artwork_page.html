@@ -1,0 +1,22 @@
+---
+layout: page
+---
+
+<div class="artworks">
+  {% capture to_use_path %}images/art/{{ page.medium }}{% endcapture %}
+
+  {% for image in site.static_files %}
+    {% if image.path contains to_use_path %}
+
+      {% capture no_extension %} {{ image.name | split: "." | first }} {% endcapture %}
+      {% capture title %} {{ no_extension | split: "-" | first | replace: "_", " " }} {% endcapture %}
+      {% capture orientation %} {{ no_extension | split: "-" | last }} {% endcapture %}
+
+      <h4>{{ title }}</h4>
+      <img class="artwork {{ orientation }}" src="{{ site.baseurl }}{{ image.path }}" alt="{{ title }}">
+
+    {% endif %}
+  {% endfor %}
+
+</div>
+
