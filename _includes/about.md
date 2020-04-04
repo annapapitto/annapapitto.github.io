@@ -6,7 +6,7 @@ I've been reading [technical books](https://www.goodreads.com/review/list/107974
 
 ### Personal
 
-I've been surrounded by art since I was born, thanks to my mom ([insta](https://www.instagram.com/amei_art_gallery/)) and my dad ([site](https://www.brucepapitto.com/); [insta](https://www.instagram.com/brucepapittostudio/)). I've started pursuing this family knowledge myself and I'll put up some pictures soon!
+I've been surrounded by art since I was born, thanks to my mom ([insta](https://www.instagram.com/amei_art_gallery/)) and my dad ([site](https://www.brucepapitto.com/); [insta](https://www.instagram.com/brucepapittostudio/)). I've started pursuing this family knowledge myself - see some pictures of my [oil paintings]({{ site.url }}/oil) and [watercolors]({{ site.url }}/watercolor).
 
 I'm obsessed with a dance called [Lindy Hop](https://en.wikipedia.org/wiki/Lindy_Hop). Observe my progression through my practice and audition [videos](https://www.youtube.com/playlist?list=PLleMhVsxATAS5iZEDKibwG61kd76IkB3M).
 
