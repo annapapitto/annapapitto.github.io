@@ -9,7 +9,8 @@ layout: page
     {% if image.path contains to_use_path %}
 
       {% capture no_extension %} {{ image.name | split: "." | first }} {% endcapture %}
-      {% capture title %} {{ no_extension | split: "-" | first | replace: "_", " " }} {% endcapture %}
+      {% capture no_priority %} {{ no_extension | slice: 4, no_extension.size }} {% endcapture %}
+      {% capture title %} {{ no_priority | split: "-" | first | replace: "_", " " }} {% endcapture %}
       {% capture orientation %} {{ no_extension | split: "-" | last }} {% endcapture %}
 
       <h4>{{ title }}</h4>
