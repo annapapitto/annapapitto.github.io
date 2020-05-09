@@ -12,6 +12,8 @@ layout: default
   I've been reading <a href="https://www.goodreads.com/review/list/107974217-anna-papitto?shelf=technical">technical books</a> recently; please recommend more to me!
 </p>
 
+<img class="personal-photo" src="/images/Waves_and_Mountains.jpg">
+
 <h2>Personal</h2>
 
 <p>
