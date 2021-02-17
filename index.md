@@ -9,7 +9,7 @@ layout: default
 </p>
 
 <p>
-  I've been reading <a href="https://www.goodreads.com/review/list/107974217-anna-papitto?shelf=technical">technical books</a> recently; please recommend more to me!
+  I've been reading <a href="https://www.goodreads.com/review/list/107974217-anna-papitto?shelf=technical">technical</a> and <a href="https://www.goodreads.com/review/list/107974217-anna-papitto?shelf=career">career</a> books recently; please recommend more to me!
 </p>
 
 <img class="personal-photo" src="/images/Waves_and_Mountains.jpg">
