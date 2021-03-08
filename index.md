@@ -17,7 +17,10 @@ layout: default
 <h2>Personal</h2>
 
 <p>
-  I've been surrounded by art since I was born, thanks to my mom <a href="https://www.instagram.com/amei_art_gallery/">insta</a>) and my dad (<a href="https://www.brucepapitto.com/">site</a>; <a href="https://www.instagram.com/brucepapittostudio/">insta</a>). I've started pursuing this family knowledge myself - see some pictures of my <a href="/oil">oil paintings</a>, <a href="/watercolor">watercolors</a>, and <a href="/drawing">drawings</a>.
+  I've been surrounded by art since I was born, thanks to my mom <a href="https://www.instagram.com/amei.art.gallery/">insta</a>)
+and my dad (<a href="https://www.brucepapitto.com/">site</a>; <a href="https://www.instagram.com/brucepapittosculptor/">insta</a>).
+I've started pursuing this family knowledge myself - see some pictures of my <a href="/oil">oil paintings</a>, <a href="/watercolor">watercolors</a>,
+and <a href="/drawing">drawings</a>.
 </p>
 
 <p>
