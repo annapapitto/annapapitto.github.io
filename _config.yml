@@ -89,3 +89,6 @@ collections:
     sort_by: priority
   sculpture:
     sort_by: priority
+  watercolor:
+    sort_by: priority
+
