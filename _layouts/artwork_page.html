@@ -3,18 +3,30 @@ layout: page
 ---
 
 <div class="artworks">
-  {% capture to_use_path %}images/art/{{ page.medium }}{% endcapture %}
 
-  {% for image in site.static_files %}
-    {% if image.path contains to_use_path %}
+  {% assign image_format = "jpg" %}
+  {% capture to_use_path %}/images/art/{{ page.medium }}/{% endcapture %}
 
-      {% capture no_extension %} {{ image.name | split: "." | first }} {% endcapture %}
-      {% capture no_priority %} {{ no_extension | slice: 4, no_extension.size }} {% endcapture %}
-      {% capture title %} {{ no_priority | split: "-" | first | replace: "_", " " }} {% endcapture %}
-      {% capture orientation %} {{ no_extension | split: "-" | last }} {% endcapture %}
+  {% for collection in site.collections %}
+    {% if collection.label == page.medium %}
 
-      <h4>{{ title }}</h4>
-      <img class="artwork {{ orientation }}" src="{{ site.baseurl }}{{ image.path }}" alt="{{ title }}">
+      {% for artwork in collection.docs %}
+        <h4>{{ artwork.title }}</h4>
+
+	{% if artwork.multiview %}
+
+          <div class="artwork-multiviews">
+            {% for i in (1..artwork.views) %}
+              {% capture image_source %}{{ to_use_path }}{{ artwork.image }}_{{ i }}.{{ image_format }}{% endcapture %}
+              <img class="artwork {{ artwork.orientation }}" src={{ image_source }} alt="{{ artwork.title }}">
+            {% endfor %}
+          </div>
+
+        {% else %}
+          <img class="artwork {{ artwork.orientation }}" src="{{ to_use_path }}{{ artwork.image }}" alt="{{ artwork.title }}">
+        {% endif %}
+
+      {% endfor %}
 
     {% endif %}
   {% endfor %}
