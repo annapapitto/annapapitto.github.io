@@ -85,5 +85,7 @@ collections_dir: collections
 collections:
   drawing:
     sort_by: priority
+  oil:
+    sort_by: priority
   sculpture:
     sort_by: priority
