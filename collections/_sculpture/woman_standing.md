@@ -1,7 +1,8 @@
 ---
 title: Woman Standing
 image: woman_standing
-views: 2
-multiview: true
+priority: 50
 orientation: portrait
+multiview: true
+views: 2
 ---

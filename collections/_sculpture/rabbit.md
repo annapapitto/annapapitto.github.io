@@ -1,7 +1,8 @@
 ---
 title: Rabbit
 image: rabbit
-views: 3
-multiview: true
+priority: 50
 orientation: portrait
+multiview: true
+views: 3
 ---
