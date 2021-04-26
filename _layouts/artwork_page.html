@@ -11,21 +11,22 @@ layout: page
     {% if collection.label == page.medium %}
 
       {% for artwork in collection.docs %}
-        <h4>{{ artwork.title }}</h4>
+        <div class="artwork">
 
-	{% if artwork.multiview %}
+          <h4>{{ artwork.title }}</h4>
 
-          <div class="artwork-multiviews">
+          {% if artwork.multiview %}
+
             {% for i in (1..artwork.views) %}
               {% capture image_source %}{{ to_use_path }}{{ artwork.image }}_{{ i }}.{{ image_format }}{% endcapture %}
-              <img class="artwork {{ artwork.orientation }}" src={{ image_source }} alt="{{ artwork.title }}">
+              <img class="{{ artwork.orientation }}" src={{ image_source }} alt="{{ artwork.title }}">
             {% endfor %}
-          </div>
 
-        {% else %}
-          <img class="artwork {{ artwork.orientation }}" src="{{ to_use_path }}{{ artwork.image }}" alt="{{ artwork.title }}">
-        {% endif %}
+          {% else %}
+            <img class="{{ artwork.orientation }}" src="{{ to_use_path }}{{ artwork.image }}" alt="{{ artwork.title }}">
+          {% endif %}
 
+      </div>
       {% endfor %}
 
     {% endif %}
