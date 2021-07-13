@@ -10,7 +10,8 @@ layout: page
   {% for collection in site.collections %}
     {% if collection.label == page.medium %}
 
-      {% for artwork in collection.docs %}
+      {% assign sorted_by_priority = collection.docs | sort: 'priority' %}
+      {% for artwork in sorted_by_priority  %}
         <div class="artwork">
 
           <h4>{{ artwork.title }}</h4>
