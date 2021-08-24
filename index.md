@@ -34,7 +34,8 @@ I've started pursuing this family knowledge myself - see some pictures of my
 
 <p>
 I'm obsessed with a dance called <a href="https://en.wikipedia.org/wiki/Lindy_Hop">Lindy Hop</a>.
-Observe my progression through my practice and audition
+Observe my progression through my practice and audition <a href=
+"https://www.youtube.com/playlist?list=PLleMhVsxATAS5iZEDKibwG61kd76IkB3M">videos</a>.
 </p>
 
 <h2>Contact</h2>
