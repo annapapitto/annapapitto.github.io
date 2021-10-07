@@ -1,6 +1,6 @@
 ---
 title: Berkeley Botanical Garden
 image: berkeley_botanical_garden.jpg
-priority: 50
+priority: 2
 orientation: landscape
 ---

@@ -2,6 +2,6 @@
 title: Leaves
 image: leaves.jpg
 year: 2019
-priority: 50
+priority: 2
 orientation: landscape
 ---

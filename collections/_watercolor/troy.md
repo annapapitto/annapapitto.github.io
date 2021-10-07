@@ -1,6 +1,6 @@
 ---
 title: Troy
 image: troy.jpg
-priority: 50
+priority: 2
 orientation: landscape
 ---

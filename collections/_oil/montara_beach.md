@@ -1,6 +1,6 @@
 ---
 title: Montara Beach
 image: montara_beach.jpg
-priority: 50
+priority: 2
 orientation: landscape
 ---

@@ -1,6 +1,6 @@
 ---
 title: Muir Beach
 image: muir_beach.jpg
-priority: 50
+priority: 2
 orientation: landscape
 ---

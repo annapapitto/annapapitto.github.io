@@ -1,6 +1,6 @@
 ---
 title: Village
 image: village.jpg
-priority: 50
+priority: 2
 orientation: landscape
 ---

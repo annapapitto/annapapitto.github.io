@@ -2,6 +2,6 @@
 title: Balcony
 image: balcony.jpg
 year: 2020
-priority: 50
+priority: 2
 orientation: landscape
 ---
