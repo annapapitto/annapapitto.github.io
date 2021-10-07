@@ -10,27 +10,35 @@ layout: page
   {% for collection in site.collections %}
     {% if collection.label == page.medium %}
 
-      {% assign sorted_by_priority = collection.docs | sort: 'priority' %}
-      {% for artwork in sorted_by_priority  %}
-        <div class="artwork">
+      {% assign grouped_by_year = collection.docs | group_by: "year" %}
+      {% assign grouped_by_reverse_year = grouped_by_year | sort: "name" | reverse %}
 
-          {% capture year %}{% if artwork.year %}, {{ artwork.year }}{% endif %}{% endcapture %}
-          <h4>{{ artwork.title }}{{ year }}</h4>
+      {% for year_group in grouped_by_reverse_year %}
+        {% assign sorted_by_priority = year_group.items | sort: "priority" %}
 
-          {% if artwork.multiview %}
+        {% for artwork in sorted_by_priority  %}
 
-            {% for i in (1..artwork.views) %}
-              {% capture image_source %}{{ to_use_path }}{{ artwork.image }}_{{ i }}.{{ image_format }}{% endcapture %}
-              <img class="{{ artwork.orientation }}" src={{ image_source }} alt="{{ artwork.title }}">
-            {% endfor %}
+          <div class="artwork">
 
-          {% else %}
-            <img class="{{ artwork.orientation }}" src="{{ to_use_path }}{{ artwork.image }}" alt="{{ artwork.title }}">
-          {% endif %}
+            {% capture year %}{% if artwork.year %}, {{ artwork.year }}{% endif %}{% endcapture %}
+            <h4>{{ artwork.title }}{{ year }}</h4>
 
-      </div>
+
+            {% if artwork.multiview %}
+
+              {% for i in (1..artwork.views) %}
+                {% capture image_source %}{{ to_use_path }}{{ artwork.image }}_{{ i }}.{{ image_format }}{% endcapture %}
+                <img class="{{ artwork.orientation }}" src={{ image_source }} alt="{{ artwork.title }}">
+              {% endfor %}
+
+            {% else %}
+              <img class="{{ artwork.orientation }}" src="{{ to_use_path }}{{ artwork.image }}" alt="{{ artwork.title }}">
+            {% endif %}
+
+          </div>
+        {% endfor %}
+
       {% endfor %}
-
     {% endif %}
   {% endfor %}
 
