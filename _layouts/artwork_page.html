@@ -14,7 +14,8 @@ layout: page
       {% for artwork in sorted_by_priority  %}
         <div class="artwork">
 
-          <h4>{{ artwork.title }}, {{ artwork.year }}</h4>
+          {% capture year %}{% if artwork.year %}, {{ artwork.year }}{% endif %}{% endcapture %}
+          <h4>{{ artwork.title }}{{ year }}</h4>
 
           {% if artwork.multiview %}
 
