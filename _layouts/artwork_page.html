@@ -11,36 +11,37 @@ layout: page
     {% if collection.label == page.medium %}
 
       {% assign grouped_by_year = collection.docs | group_by: "year" %}
-      {% assign grouped_by_reverse_year = grouped_by_year | sort: "name" | reverse %}
+      {% assign groups_in_reverse_year_order = grouped_by_year | sort: "name" | reverse %}
 
-      {% for year_group in grouped_by_reverse_year %}
-        {% assign sorted_by_priority = year_group.items | sort: "priority" %}
+      {% for year_group in groups_in_reverse_year_order %}
 
-        {% for artwork in sorted_by_priority  %}
+        {% assign grouped_by_priority = year_group.items | group_by: "priority" %}
+        {% assign groups_in_priority_order = grouped_by_priority | sort: "name" %}
 
-          <div class="artwork">
+        {% for priority_group in groups_in_priority_order %}
 
-            {% capture year %}{% if artwork.year %}, {{ artwork.year }}{% endif %}{% endcapture %}
-            <h4>{{ artwork.title }}{{ year }}</h4>
+          {% assign sorted_by_title = priority_group.items | sort: "title" %}
+          {% for artwork in sorted_by_title %}
 
+            <div class="artwork">
+              {% capture year %}{% if artwork.year %}, {{ artwork.year }}{% endif %}{% endcapture %}
+              <h4>{{ artwork.title }}{{ year }}</h4>
 
-            {% if artwork.multiview %}
+              {% if artwork.multiview %}
+                {% for i in (1..artwork.views) %}
+                  {% capture image_source %}{{ to_use_path }}{{ artwork.image }}_{{ i }}.{{ image_format }}{% endcapture %}
+                  <img class="{{ artwork.orientation }}" src={{ image_source }} alt="{{ artwork.title }}">
+                {% endfor %}
 
-              {% for i in (1..artwork.views) %}
-                {% capture image_source %}{{ to_use_path }}{{ artwork.image }}_{{ i }}.{{ image_format }}{% endcapture %}
-                <img class="{{ artwork.orientation }}" src={{ image_source }} alt="{{ artwork.title }}">
-              {% endfor %}
+              {% else %}
+                <img class="{{ artwork.orientation }}" src="{{ to_use_path }}{{ artwork.image }}" alt="{{ artwork.title }}">
+              {% endif %}
 
-            {% else %}
-              <img class="{{ artwork.orientation }}" src="{{ to_use_path }}{{ artwork.image }}" alt="{{ artwork.title }}">
-            {% endif %}
-
-          </div>
+            </div>
+          {% endfor %}
         {% endfor %}
-
       {% endfor %}
     {% endif %}
   {% endfor %}
-
 </div>
 
