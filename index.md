@@ -7,7 +7,6 @@ layout: default
 <p>
 Curious what I've been up to during <a href="https://www.linkedin.com/in/anna-papitto/">work</a>
 hours?
-<a href="/download/AnnaPapittoResume.pdf">Here</a> is a PDF of my resume (as of February 2020).
 </p>
 
 <p>
