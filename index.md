@@ -2,31 +2,28 @@
 layout: default
 ---
 
-<h2>Professional</h2>
+<h2>Software Engineer</h2>
+<h4>Open to New Opportunities!</h4>
 
 <p>
-Curious what I've been up to during <a href="https://www.linkedin.com/in/anna-papitto/">work</a>
-hours?
+Self-directed and efficient. Delivers detailed execution aligned with big picture goals. Thorough, thoughtful, compassionate communicator. Quickly learns and then coaches and mentors others.
 </p>
 
 <p>
-I've been reading
-<a href="https://www.goodreads.com/review/list/107974217-anna-papitto?shelf=technical">technical</a>
-and <a href="https://www.goodreads.com/review/list/107974217-anna-papitto?shelf=career">career</a>
-books recently.
-Please recommend more to me!
+Looking to work on complex, elegant, back-end systems. Especially motivated when end users are developers, code is open source, or Rust is utilized. Excels with team leadership of collaboration and clear accountability.
 </p>
 
-<img class="personal-photo" src="/images/Waves_and_Mountains.jpg">
+<p>
+Please visit my <a href="https://www.linkedin.com/in/anna-papitto/">LinkedIn</a> page to view my resume.
+</p>
 
-<h2>Personal</h2>
+<h2>Artistic Statement</h2>
 
 <p>
-I've been surrounded by art since I was born, thanks to my mother
-(<a href="https://www.instagram.com/amei.art.gallery/">insta</a>) and my father
-(<a href="https://www.brucepapitto.com/">site</a>;
-<a href="https://www.instagram.com/brucepapittosculptor/">insta</a>).
-I've started pursuing this family knowledge myself - see some pictures of my
+I've been surrounded by art since I was born, thanks to my
+<a href="https://www.instagram.com/amei.art.gallery/"> mother</a> and my
+<a href="https://www.instagram.com/brucepapittosculptor/">father</a>.
+I've started pursuing this family knowledge myself — see some pictures of my
 <a href="/oil">oil paintings</a>, <a href="/watercolor">watercolors</a>,
 <a href="/drawing">drawings</a>, and <a href="/sculpture">sculptures</a>.
 </p>
