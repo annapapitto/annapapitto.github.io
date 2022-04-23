@@ -3,18 +3,23 @@ layout: default
 ---
 
 <h2>Software Engineer</h2>
-<h4>Open to New Opportunities!</h4>
+
+<p>
+I'm thrilled to be joining the "git on borg" team at Google soon!
+</p>
+
+<p>
+Please visit my <a href="https://www.linkedin.com/in/anna-papitto/">LinkedIn</a> page to view my resume.
+</p>
+
+<p>~</p>
 
 <p>
 Self-directed and efficient. Delivers detailed execution aligned with big picture goals. Thorough, thoughtful, compassionate communicator. Quickly learns and then coaches and mentors others.
 </p>
 
 <p>
-Looking to work on complex, elegant, back-end systems. Especially motivated when end users are developers, code is open source, or Rust is utilized. Excels with team leadership of collaboration and clear accountability.
-</p>
-
-<p>
-Please visit my <a href="https://www.linkedin.com/in/anna-papitto/">LinkedIn</a> page to view my resume.
+Drawn to working on complex, elegant, back-end systems. Especially motivated when end users are developers, code is open source, or Rust is utilized. Excels with team leadership of collaboration and clear accountability.
 </p>
 
 <h2>Artistic Statement</h2>
