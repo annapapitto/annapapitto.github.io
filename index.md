@@ -5,7 +5,7 @@ layout: default
 <h2>Software Engineer</h2>
 
 <p>
-I'm thrilled to be joining the "git on borg" team at Google soon!
+I'm thrilled to have joined the "git-on-borg" team at Google in May 2022!
 </p>
 
 <p>
@@ -37,6 +37,11 @@ I've started pursuing this family knowledge myself — see some pictures of my
 I'm obsessed with a dance called <a href="https://en.wikipedia.org/wiki/Lindy_Hop">Lindy Hop</a>.
 Observe my progression through my practice and audition <a href=
 "https://www.youtube.com/playlist?list=PLleMhVsxATAS5iZEDKibwG61kd76IkB3M">videos</a>.
+I've enjoyed teaching a couple of classes at <a href="https://www.breakawayswing.com/">The Breakaway</a>.
+</p>
+
+<p>
+Most recently, I've begun diving into the world of <a href="pottery">pottery</a>.
 </p>
 
 <h2>Contact</h2>
