@@ -5,7 +5,7 @@ layout: default
 <h2>Software Engineer</h2>
 
 <p>
-I'm thrilled to have joined the "git-on-borg" team at Google in May 2022!
+I'm thrilled to have joined the Git-on-Borg team at Google in May 2022! One exciting aspect is <a href="https://eclipse.googlesource.com/jgit/jgit/+log/?author=annapapitto&pretty=full">contributing to JGit</a>, the open source Java library implementing git.
 </p>
 
 <p>
